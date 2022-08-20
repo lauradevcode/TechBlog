@@ -1,12 +1,153 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TechBlog</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<!-- material icons CSS -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>TechBlog - O seu Blog de tecnologia</title>
 </head>
+
 <body>
-  
+	<!-- Header -->
+	<div id="area-cabecalho">
+		<div id="area-logo">
+			<h1>Tech<span class="branco">Blog</span></h1>
+		</div>
+		<div id="area-menu">
+			<a href="index.html">Home</a>
+			<a href="games.html">Games</a>
+			<a href="mobile.html">Mobile</a>
+			<a href="informatica.html">Informática</a>
+			<a href="eletronicos.html">Eletrônicos</a>
+		</div>
+	</div>
+	<!-- Fim do Header -->
+	<div id="area-principal">
+
+		<div id="area-postagens">
+			<!-- abertura postagem-->
+			<div class="postagem">
+				<h2>Café e Códigos</h2>
+				<span class="data-postagem new badge" data-badge-caption="postado 20 de março"></span>
+				<img src="img/imagem1.jpg" width="610px">
+				<p>
+					Feugiat class eleifend ut taciti eleifend consequat enim ac nec vulputate porttitor, turpis augue
+					libero lacus amet donec at cubilia nunc. sagittis nisl hendrerit eleifend sodales vehicula maecenas
+					senectus donec, fusce consequat arcu sodales felis amet eu pulvinar primis, justo congue habitasse
+					porta tortor duis platea. arcu sagittis curae convallis est curabitur amet eleifend velit, eleifend
+					aliquam amet eleifend metus tempor. fames suscipit arcu rhoncus egestas mauris tempus vulputate
+					tempus massa, pulvinar elementum iaculis taciti odio bibendum eros varius aliquam arcu, eros lectus
+					gravida vulputate proin senectus viverra donec. neque nullam ipsum mauris justo dictum blandit
+					eleifend dapibus ac, congue auctor sollicitudin in nisl nulla congue class.
+				</p>
+				<a class="botao-leia" href="#">Leia mais</a>
+			</div>
+			<!--// fechamento postagem-->
+
+			<!-- abertura postagem-->
+			<div class="postagem">
+				<h2>Equipe DevTeam</h2>
+				<span class="data-postagem new badge" data-badge-caption="postado 21 de março"></span>
+				<img src="img/imagem2.jpg" width="615px">
+				<p>
+					Ligula taciti egestas faucibus senectus tristique nostra leo felis himenaeos lorem arcu sociosqu,
+					accumsan dolor lacinia litora maecenas gravida tortor elit suspendisse eu tellus placerat lorem,
+					orci ut nisi fringilla curae hendrerit porta non mi congue lorem. conubia porta varius leo fames leo
+					integer vitae adipiscing gravida auctor turpis, rhoncus velit dictumst aenean imperdiet quam curae
+					nisl amet lectus, gravida nullam taciti consequat nullam cubilia taciti platea etiam sed. facilisis
+					molestie aliquam urna scelerisque sagittis etiam adipiscing ante convallis phasellus, proin morbi
+					curae justo risus laoreet ultrices tincidunt fringilla fusce, risus eget eros odio fringilla
+					fermentum est quisque rhoncus.
+				</p>
+				<a class="botao-leia" href="#">Leia mais</a>
+			</div>
+			<!--// fechamento postagem-->
+		</div>
+
+		<div id="area-lateral">
+			<div class="conteudo-lateral">
+				<h5>Postagens recentes</h5>
+				<div class="postagem-lateral">
+					<div class="texto-lateral">
+						Vehicula dictumst platea blandit et consectetur elementum imperdiet facilisis neque aliquam
+						purus latea blandit onsectetur elementum.
+					</div>
+					<a class="botao-lateral" href="#">Leia mais</a>
+				</div>
+				<div class="postagem-lateral">
+					<div class="texto-lateral">
+						Vehicula dictumst platea blandit et consectetur elementum imperdiet facilisis neque aliquam
+						purus latea blandit onsectetur elementum.
+					</div>
+					<a class="botao-lateral" href="#">Leia mais</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="area-lateral">
+			<div class="conteudo-lateral">
+				<h5>Categorias</h5>
+				<div class="postagem-lateral">
+					<a href="">Games</a><br>
+					<a href="">Eletrônicos</a><br>
+					<a href="">Informática</a><br>
+					<a href="">Mobile</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="paginacao">
+		<ul class="pagination">
+			<li class="waves-effect"><a href="#!"><i class="material-icons">chevron_left
+			</i></a></li>
+			<li class="active"><a href="#!">1</a></li>
+			<li class="waves-effect"><a href="#!">2</a></li>
+			<li class="waves-effect"><a href="#!">3</a></li>
+			<li class="waves-effect"><a href="#!">4</a></li>
+			<li class="waves-effect"><a href="#!">5</a></li>
+			<li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+		  </ul>
+	</div>
+
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h6 class="white-text">Tech Blog</h6>
+					<p class="grey-text text-lighten-4">
+						O blog mais diversificado desse mundo tech.
+					</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h6 class="white-text">Redes sociais</h6>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Linkedin</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Whatsapp</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© 2021 Todos os direitos reservados
+				<a class="grey-text text-lighten-4 right" href="#!">LauraDevCode</a>
+			</div>
+		</div>
+	</footer>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
+
 </html>

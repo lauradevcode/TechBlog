@@ -1,0 +1,168 @@
+/* Reset CSS */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+/*
+*** Home ***
+*/
+#area-cabecalho {
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo,
+#area-menu {
+	padding: 10px;
+}
+
+#area-principal {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens {
+	width: 650px;
+	float: left;
+}
+
+#area-lateral {
+	float: right;
+	margin-top: 20px;
+}
+
+.postagem {
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+
+.conteudo-lateral {
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+.postagem-lateral {
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;
+}
+
+.texto-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	text-align: justify !important;
+	width: 250px;
+}
+.paginacao {
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.pagination li.active {
+	background-color: #f7b600 !important;
+
+}
+footer {
+	margin-top: 25px;
+	padding: 15px;
+	clear: both;
+	text-align: center;
+	background-color: #f7b600 !important;
+}
+
+/*
+*** Formatações de Menu ***
+*/
+a {
+	text-decoration: none;
+}
+
+a:link,
+a:visited {
+	color: #f7b600;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+	color: #ffffff;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+	color: #f7b600;
+	background-color: #ffffff;
+}
+
+.botao-leia {
+	color: #ffffff !important;
+	background-color: #f7b600;
+	padding: 7px;
+	float: right;
+	margin-right: 33px;
+}
+
+.botao-leia:hover {
+text-decoration: underline;
+background-color: #565656;
+}
+
+.botao-lateral {
+	margin-top: 5px;
+	text-decoration: underline;
+}
+
+.botao-lateral:hover {
+	cursor: pointer;
+}
+
+/*
+*** Formatações em Geral ***
+*/
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #f7b600;
+}
+
+h5 {
+	color: #565656;
+	background-color: #ccc;
+	width: 270px;
+	padding: 10px;
+}
+
+.branco {
+	color: #ffffff;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 10px;
+	display: block;
+	width: 250px;
+	background-color: #ccc !important;
+	margin-right: 400px !important;
+}
+
+p {
+	width: 618px;
+}
